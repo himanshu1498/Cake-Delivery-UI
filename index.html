@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE DELIVERY APP</title><link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="row fix">
+                <img src="Images/logo1.jpg" class="logo">
+                <ul class="main-navbar animated slideInDown" id="check-class">
+                    <li><a href="#">CAKE DELIVERY</a></li>
+                    <li><a href="#">HOW TO ORDER</a></li>
+                    <li><a href="#">FLAVOURS</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+                <a href="#" class="mob-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+
+        </nav>  
+        <div class="main-content">
+            <h1>WELOCME TO THE <span class="boom">HOMEBAKED!</span> <br>
+            HOUSE FOR THE DESSERT LOVERS.</h1>
+        <a href="#" class="btn btnclick">CLICK TO ORDER</a>
+        <a href="#" class="btn btnclick2">SHOW MORE</a>
+    </div>
+    </header>
+    <script type="text/javascript">
+        function slideshow(){
+
+var x = document.getElementById('check-class');
+if (x.style.display=== "none"){
+    x.style.display="Block";
+}else{
+    x.style.display="none";
+}
+}
+</script>
+</body>
+</html>
